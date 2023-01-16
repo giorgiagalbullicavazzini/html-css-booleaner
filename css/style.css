@@ -22,11 +22,11 @@ article h1 {
   font-size: 45px;
 }
 
-article section {
+article section, footer {
   padding-left: 10px;
 }
 
-.info-articolo {
+.info-articolo, footer h4 {
   color: #787878;
 }
 
@@ -61,4 +61,28 @@ section .riga-dispari {
 
 section .colonna-larga {
   width: 50%;
+}
+
+footer {
+  margin: 30px 0 30px 0;
+}
+
+footer .altro-articolo {
+  width: 200px;
+  height: 150px;
+  margin-top: 0;
+  background-size: cover;
+  color: white;
+}
+
+footer h3 {
+  padding: 10px 0 0 10px;
+}
+
+#primo-articolo {
+  background-image: url(../img/monitor.jpg);
+}
+
+#secondo-articolo {
+  background-image: url(../img/graph.jpg);
 }
