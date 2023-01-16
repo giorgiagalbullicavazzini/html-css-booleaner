@@ -29,11 +29,11 @@ article h1 {
   font-size: 40px;
 }
 
-article h1, article .foto, section p {
+article h1, article .foto, article p {
   margin-top: 20px;
 }
 
-article section, footer {
+article h1, article .info-articolo, article .foto, article .corpo, footer {
   padding-left: 10px;
 }
 
@@ -49,38 +49,38 @@ article section, footer {
   color: #24aae5;
 }
 
-.data-articolo, section small {
+.data-articolo, article small {
   font-size: 12px;
 }
 
-section .yellow-text {
+article .yellow-text {
   background-color: yellow;
 }
 
-section ul {
+article ul {
   padding-left: 15px;
 }
 
-section ul, section table, footer {
+article ul, article table, footer {
   margin-top: 30px;
 }
 
-section table {
+article table {
   width: 99%;
   border-collapse: collapse;
 }
 
-section thead {
+article thead {
   background-color: #20a9e5;
   text-align: left;
   color: white;
 }
 
-section .riga-dispari {
+article .riga-dispari {
   background-color: #b1e5f2;
 }
 
-section .colonna-larga {
+article .colonna-larga {
   width: 50%;
 }
 
