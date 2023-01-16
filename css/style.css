@@ -1,0 +1,17 @@
+.container {
+  width: 70vw;
+  margin: auto;
+}
+
+header {
+  height: 130px;
+  background-image: url(../img/pattern.png);
+  background-size: 40%;
+  background-position: left 100px bottom 135px;
+  background-color: #4ea0ff;
+}
+
+header img {
+  height: 50%;
+  padding: 55px 0 0 10px;
+}
