@@ -30,7 +30,7 @@ header {
   height: 130px;
   background-image: url(../img/pattern.png);
   background-size: 40%;
-  background-position: bottom 100px;
+  background-position: bottom 120px left 5px;
   background-color: #4ea0ff;
 }
 
