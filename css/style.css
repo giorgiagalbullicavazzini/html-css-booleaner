@@ -25,31 +25,31 @@ header img {
   padding: 55px 0 0 10px;
 }
 
+.page {
+  padding-left: 10px;
+}
+
 article h1 {
   font-size: 40px;
 }
 
-article h1, article .foto, article p {
+article h1, article .photo, article p {
   margin-top: 20px;
 }
 
-article h1, article .info-articolo, article .foto, article .corpo, footer {
-  padding-left: 10px;
-}
-
-.info-articolo, footer h4 {
+.info-article, footer h4 {
   color: #787878;
 }
 
-.info-articolo {
+.info-article {
   font-size: 18px;
 }
 
-.autore-articolo {
+.author-article {
   color: #24aae5;
 }
 
-.data-articolo, article small {
+.date-article, article small {
   font-size: 12px;
 }
 
@@ -76,11 +76,11 @@ article thead {
   color: white;
 }
 
-article .riga-dispari {
+article .odd-row {
   background-color: #b1e5f2;
 }
 
-article .colonna-larga {
+article .large-column {
   width: 50%;
 }
 
@@ -88,7 +88,7 @@ footer {
   padding-bottom: 30px;
 }
 
-footer .altro-articolo {
+footer .others {
   width: 200px;
   height: 150px;
   margin-top: 10px;
@@ -100,10 +100,10 @@ footer h3 {
   padding: 10px 0 0 10px;
 }
 
-#primo-articolo {
+#first-article {
   background-image: url(../img/monitor.jpg);
 }
 
-#secondo-articolo {
+#second-article {
   background-image: url(../img/graph.jpg);
 }
