@@ -1,0 +1,163 @@
+/* Formattazione generale */
+* {
+  margin: 0;
+}
+
+/* Sfondo */
+body {
+  background-color: rgb(17, 16, 16);
+}
+
+/* Container pagina completa */
+.container {
+  width: 65vw;
+  background-color: white;
+  border-bottom: 15px solid #4ea0ff;
+}
+
+/* Container pagina di carta */
+.page {
+  width: 55vw;
+  text-align: justify;
+}
+
+.container, .page {
+  margin: auto;
+}
+
+/* Header */
+header {
+  height: 130px;
+  background-image: url(../img/pattern.png);
+  background-size: 40%;
+  background-position: bottom 100px;
+  background-color: #4ea0ff;
+}
+
+header img {
+  height: 50%;
+  padding: 55px 0 0 95px;
+}
+
+article h1 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+article h1, .info-article, article .photo {
+  text-align: center;
+}
+
+article h1, article .photo, article p {
+  margin-top: 20px;
+}
+
+.info-article, footer h4 {
+  color: #787878;
+}
+
+.info-article {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.author-article {
+  color: #24aae5;
+}
+
+.author-article:hover {
+  color: #6cd2fd;
+}
+
+.author-article, footer h3 {
+  cursor: pointer;
+}
+
+.date-article, article small {
+  font-size: 12px;
+}
+/* // Header */
+
+/* Corpo dell'articolo */
+article p:first-letter {
+  font-size: 25px;
+}
+
+article .yellow-text {
+  background-color: yellow;
+}
+
+article ul {
+  list-style-type: square;
+  padding-left: 15px;
+}
+
+article ul, footer {
+  margin-top: 30px;
+}
+
+article table {
+  width: 99%;
+  border-spacing: 0;
+  margin: 30px auto;
+}
+
+article thead {
+  background-color: #20a9e5;
+  text-align: left;
+  color: white;
+}
+
+article th, article td {
+  padding: 5px 10px;
+}
+
+article .odd-row {
+  background-color: #b1e5f2;
+}
+
+article .large-column {
+  width: 50%;
+}
+/* // Corpo dell'articolo */
+
+/* Bordi arrotondati */
+table th:first-of-type {
+  border-top-left-radius: 15px;
+}
+
+table th:last-of-type {
+  border-top-right-radius: 15px;
+}
+/* // Bordi arrotondati */
+
+/* Altri articoli */
+footer {
+  clear: both;
+  display: table;
+  content: "";
+  padding-bottom: 30px;
+}
+
+footer .others {
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin-top: 10px;
+  background-size: cover;
+  color: white;
+}
+
+footer h3 {
+  padding: 10px 0 0 10px;
+}
+
+#first-article {
+  background-image: url(../img/monitor.jpg);
+  margin-right: 10px;
+}
+
+#second-article {
+  background-image: url(../img/graph.jpg);
+}
+/* // Altri articoli */
