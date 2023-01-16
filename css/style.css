@@ -37,3 +37,28 @@ article section {
 article .foto {
   margin-top: 20px;
 }
+
+section .yellow-text {
+  background-color: yellow;
+}
+
+section ul {
+  padding: 10px 0 10px 15px;
+}
+
+section table {
+  border-collapse: collapse;
+}
+
+section thead {
+  background-color: #20a9e5;
+  color: white;
+}
+
+section .riga-dispari {
+  background-color: #b1e5f2;
+}
+
+section .colonna-larga {
+  width: 50%;
+}
