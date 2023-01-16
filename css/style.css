@@ -1,17 +1,26 @@
+/* Formattazione generale */
 * {
   margin: 0;
 }
 
+/* Sfondo */
 body {
   background-color: rgb(17, 16, 16);
 }
 
+/* Container pagina completa */
 .container {
   width: 55vw;
   margin: auto;
   background-color: white;
 }
 
+/* Container pagina di carta */
+.page {
+  padding-left: 10px;
+}
+
+/* Header */
 header {
   height: 130px;
   background-image: url(../img/pattern.png);
@@ -23,10 +32,6 @@ header {
 header img {
   height: 50%;
   padding: 55px 0 0 10px;
-}
-
-.page {
-  padding-left: 10px;
 }
 
 article h1 {
@@ -52,7 +57,9 @@ article h1, article .photo, article p {
 .date-article, article small {
   font-size: 12px;
 }
+/* // Header */
 
+/* Corpo dell'articolo */
 article .yellow-text {
   background-color: yellow;
 }
@@ -83,7 +90,9 @@ article .odd-row {
 article .large-column {
   width: 50%;
 }
+/* // Corpo dell'articolo */
 
+/* Altri articoli */
 footer {
   padding-bottom: 30px;
 }
@@ -107,3 +116,4 @@ footer h3 {
 #second-article {
   background-image: url(../img/graph.jpg);
 }
+/* // Altri articoli */
